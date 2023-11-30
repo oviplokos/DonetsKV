@@ -84,21 +84,27 @@ networks.
 Выполните действия.
 
 Выполните запрос в Pushgateway для помещения метрики <ваши фамилия и инициалы> со значением 5 в Prometheus: echo "<ваши фамилия и инициалы> 5" | curl --data-binary @- http://localhost:<внешний порт выбранный вами в пункте 2>/metrics/job/netology.
+
 Залогиньтесь в Grafana с помощью логина и пароля из предыдущего задания.
+
 Cоздайте Data Source Prometheus (Home -> Connections -> Data sources -> Add data source -> Prometheus -> указать "Prometheus server URL = http://<ваши фамилия и инициалы>-netology-prometheus:9090" -> Save & Test).
+
 Создайте график на основе добавленной в пункте 5 метрики (Build a dashboard -> Add visualization -> Prometheus -> Select metric -> Metric explorer -> <ваши фамилия и инициалы -> Apply.
+
 В качестве решения приложите:
 
 docker-compose.yml целиком;
-скриншот команды docker ps после запуске docker-compose.yml;
-скриншот графика, постоенного на основе вашей метрики.
 
+скриншот команды docker ps после запуске docker-compose.yml;
+
+скриншот графика, постоенного на основе вашей метрики.
 
 Задание 8
 
 Выполните действия:
 
 Остановите и удалите все контейнеры одной командой.
+
 В качестве решения приложите скриншот консоли с проделанными действиями.........`
 
 Решение 8
